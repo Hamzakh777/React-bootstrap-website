@@ -1,0 +1,229 @@
+/*------------------------globale--------------------------*/
+body {
+    margin-top:100px;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    color:#737373;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------nav--------------------------*/
+.nav-bar {
+    margin-bottom: 40px;
+}
+.nav-bar h3 {
+    color: #000 ;
+    font-size: 35px;
+}
+
+#nav a  {
+    transition: 0.4s ease-in-out;
+    color: #4A4949;
+    font-size: 20px;
+}
+
+
+#nav a:hover { 
+    text-decoration: none;
+    color: #000;
+}
+
+/*----------------showcase section-----------------------*/
+
+
+#showcase h2 {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 20px;
+    
+}
+
+#showcase img{
+    width:100%;
+}
+
+#showcase .showcase-right {
+    margin-top:90px;
+} 
+
+
+/*---------------------testimonials------------*/
+#testimonials {
+    background-color: #f1f1f1;
+    padding: 40px 0 30px 0;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+#testimonials img {
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+}
+
+#testimonials p {
+    font-size: 20px;
+}
+
+#testimonials .costumer {
+    font-size: 16px;
+}
+
+
+/*-------------------info1---------------------------*/
+
+#info1 .info-right {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#info1 .info-left img {
+    width:90%;
+}
+
+
+/*------------------info2----------------*/
+
+#info2 {
+    margin-top:30px;
+    margin-bottom:60px;
+}
+
+#info2 .info-left, #info2 .info-right {
+    padding: 10px;
+}
+
+#info2 .info-left {
+    border-right: 1px solid #f1f1f1;   
+}
+
+@media(max-width:578px) {
+    #info2 .info-left {
+        border-right:0px ;
+        border-bottom: 1px solid #f1f1f1;
+    }
+}
+
+/*---------------------contact sectio---------------*/
+
+#contact {
+    background-image: url(../img/google4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#contact form {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#contact input {
+    width:400px;
+}
+
+/*---------------footer----------*/
+
+footer {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
